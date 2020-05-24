@@ -1,29 +1,19 @@
 [
-    {
-      "name": "Phone SLA",
-      "description": "Number of calls answered in 60s",
-      "value": "5",
-      "date": "2020-05"
-    },
-    {
-      "name": "Email SLA",
-      "description": "Number of calls answered in 24h",
-      "value": "2",
-      "date": "2020-05"
-    },
-    {
-      "name": "FCR",
-      "description": "First Contact Resolution",
-      "value": "2",
-      "date": "2020-05"
-    },
-    {
-      "name": "FCR",
-      "description": "First Contact Resolution",
-      "value": "2",
-      "date": "2020-05"
-    }
-  ]
-  
+{
+  "name":"Phone SLA",
+  "description": "Number of calls answered in 60s",
+  "data": [{"date": "2020-05", "value": "2"}, {"date": "2020-06", "value": "3"}, {"date": "2020-07", "value": "5",}, {"date": "2020-08", "value": "2"}]
+},
+{
+  "name":"Email SLA",
+  "description": "Number of emails answered in 24h",
+  "data": [{"date": "2020-05", "value": "2"}, {"date": "2020-06", "value": "3"}, {"date": "2020-07", "value": "5",}, {"date": "2020-08", "value": "2"}]
+},
+{
+  "name":"FCR",
+  "description": "First Contact Resolution",
+  "data": [{"date": "2020-05", "value": "2"}, {"date": "2020-06", "value": "3"}, {"date": "2020-07", "value": "5",}, {"date": "2020-08", "value": "2"}]
+}
+]
   
   
